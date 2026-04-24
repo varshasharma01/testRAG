@@ -468,6 +468,7 @@ with tab4:
                                         st.session_state.yt_processed = True
                                         st.session_state.yt_url = yt_url
                                         st.success("✅ Processed successfully!")
+                                        st.success("✅ Ready! Ask questions →")
                                     else:
                                         st.error(
                                             f"❌ {data.get('error', 'Unknown error')}"
@@ -479,8 +480,8 @@ with tab4:
                             st.session_state.yt_processing = False
 
                 # ---- READY MESSAGE ----
-                if st.session_state.yt_processed:
-                    st.success("✅ Ready! Ask questions →")
+                # if st.session_state.yt_processed:
+                    
 
             else:
                 st.error("❌ Invalid YouTube URL")
