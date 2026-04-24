@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymupdf
+python-dotenv
+pinecone-client
+groq
+nomic
+streamlit
+youtube-transcript-api
