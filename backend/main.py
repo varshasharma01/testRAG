@@ -111,7 +111,7 @@ def search(query: str, namespace: str = ""):
             vector=query_emb,
             top_k=3,
             include_metadata=True,
-            namespace=namespace    # ← namespace added
+            namespace=namespace    
         )
         relevant_chunks = []
         for match in results['matches']:
