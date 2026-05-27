@@ -1,9 +1,15 @@
+
+# streamlit
 fastapi
 uvicorn
+python-multipart
 pymupdf
 python-dotenv
-pinecone-client
+pinecone
 groq
 nomic
-streamlit
+google-genai
+requests
+beautifulsoup4
+Pillow
 youtube-transcript-api
